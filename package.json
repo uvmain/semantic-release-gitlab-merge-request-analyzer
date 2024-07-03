@@ -4,11 +4,15 @@
   "description": "A plugin for semantic-release that analyzes Gitlab merge requests",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cspell": "cspell \"**/*.{ts,js,json}\""
   },
   "author": "Ian Baron",
   "license": "ISC",
   "peerDependencies": {
     "semantic-release": "^24.0.0"
+  },
+  "devDependencies": {
+    "cspell": "^8.10.0"
   }
 }
